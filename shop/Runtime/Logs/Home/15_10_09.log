@@ -1,0 +1,57 @@
+[ 2015-10-09T08:13:12+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
+[ 2015-10-09T08:13:20+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/User/hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
+[ 2015-10-09T08:14:36+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/User/hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
+[ 2015-10-09T08:21:47+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/User/hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
+[ 2015-10-09T08:21:53+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
+[ 2015-10-09T08:21:59+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/sss/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+ERR: 无法加载控制器:Sss
+
+[ 2015-10-09T08:34:38+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/sss/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+ERR: 无法加载控制器:Sss
+
+[ 2015-10-09T08:34:40+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/sss/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+ERR: 无法加载控制器:Sss
+
+[ 2015-10-09T08:34:55+08:00 ] 127.0.0.1 /demo/shop/index.php?s=Home/sss/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Use of undefined constant URL_MODEL - assumed 'URL_MODEL' D:\wamp\www\demo\shop\Home\Conf\config.php 第 4 行.
+
