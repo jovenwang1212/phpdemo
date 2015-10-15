@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2015-10-10 14:35:19
+<?php /* Smarty version Smarty-3.1.6, created on 2015-10-14 16:20:03
          compiled from "D:/wamp/www/demo/shop/Admin/View\Goods\showlist.html" */ ?>
 <?php /*%%SmartyHeaderCode:579556187769427971-27589941%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '53d573feee6cc9ec3ec898899265e748a90eb321' => 
     array (
       0 => 'D:/wamp/www/demo/shop/Admin/View\\Goods\\showlist.html',
-      1 => 1444444471,
+      1 => 1444810799,
       2 => 'file',
     ),
   ),
@@ -100,7 +100,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><?php echo $_smarty_tpl->tpl_vars['v']->value['goods_create_time'];?>
 </td>
                         <td><a href="<?php echo @__MODULE__;?>
-/Goods/update" >修改</a></td>
+/Goods/update/goods_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['goods_id'];?>
+" >修改</a></td>
                         <td><a href="#" >删除</a></td>
                     </tr>
                     <?php } ?>

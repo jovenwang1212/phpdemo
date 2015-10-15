@@ -187,6 +187,19 @@ CREATE TABLE `sw_user_consignee` (
   PRIMARY KEY  (`consignee_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='收货人信息表';
 
+
+DROP TABLE IF EXISTS `sw_user`;
+CREATE TABLE `sw_user` (
+  `user_id` int(11) NOT NULL primary key auto_increment COMMENT '自增id',
+  `username` varchar(64) NOT NULL COMMENT '收货人真实姓名',
+  `password` varchar(64) NOT NULL COMMENT '收货人真实姓名',
+  `user_email` varchar(64) NOT NULL COMMENT '收货人邮箱',
+  user_sex int(11),
+  user_qq varchar(20),
+  user_xueli int(11),
+  user_hobby int(11),
+  user_introduce varchar(255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 -- ----------------------------
 --  Records 
 -- ----------------------------

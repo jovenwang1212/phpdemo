@@ -62,8 +62,39 @@ class GoodsController extends Controller {
 
 	}
 
-	public function update() {
+	public function update1() {
+		$good = D('Goods');
+		$ar = array('goods_name' => 'xiaomi', 'goods_price' => 2300);
+		$rst = $good -> where('goods_id>4') -> save($ar);
+		show_bug($rst);
 		$this -> display();
+	}
+
+	public function update($goods_id) {
+		$goods = D('Goods');
+		if (!empty($_POST)) {
+			$goods -> create();
+			$rst=$goods -> save();
+			if($rst){
+				echo "success";
+			}else{
+				echo "failure";
+			}
+			//print_r($_POST);
+		} else {
+			$info = $goods -> find($goods_id);
+			$this -> assign('info', $info);
+			$this -> display();
+		}
+
+	}
+
+	public function delete() {
+		$goods = D('Goods');
+		//$rst=$goods->delete('8');
+		//$rst=$goods->where('goods_id>7')->delete();
+		$rst = $goods -> delete('1,2,3');
+		show_bug($rst);
 	}
 
 }
